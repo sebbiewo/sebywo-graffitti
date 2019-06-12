@@ -7,9 +7,9 @@ description: |
   Another fine responsive  
   site template freebie  
   crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+owner: sebywograffiti
+first_published: 2019 # if migrating another site, the year of your first publish
+email: sebywograffiti@gmail.com
 baseurl: "/spectral" # the subpath of your site, e.g. /blog
 url: "http://arkadianriver.github.io" # the base hostname & protocol for your site
 social:
