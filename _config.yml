@@ -2,25 +2,23 @@
 #
 
 # Site settings
-title: Spectral
+title: Sebywo Graffiti
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
+  Wonderful text goes here
 owner: sebywograffiti
 first_published: 2019 # if migrating another site, the year of your first publish
 email: sebywograffiti@gmail.com
-baseurl: "/spectral" # the subpath of your site, e.g. /blog
-url: "http://arkadianriver.github.io" # the base hostname & protocol for your site
+baseurl: "/sebywo-graffitti" # the subpath of your site, e.g. /blog
+url: "http://sebbiewo.github.io" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
+  twitter: 
+  github: https://github.com/sebbiewo
+  linkedin-square: 
+  facebook-official: 
+  google-plus-square: 
   #email: /contact/
   #flickr:
-  #instagram:
+  instagram: sebywo-graffiti
   #youtube-square:
   #spotify:
   #stack-overflow:
