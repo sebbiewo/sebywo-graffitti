@@ -6,15 +6,12 @@ description: Graffiti art
 <h3>Sebywo Gallery</h3>
 <div class="box alt">
 	<div class="row uniform 50%">
-			<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-			<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-			<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+		{% for post in site.posts %}
+			<div class="4u">
+				<span class="image fit"><a href="{{ post.url }}"><img src="{{ post.img }}" alt="{{ post.caption }}" /></a></span>
+				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				<p>{{ post.caption }}</p>
+			</div>
+		{% endfor %}
 	</div>
 </div>
-<hr>
-{% for post in site.posts %}
-<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-{{ post.title }}
-{{ post.caption }}
-{{ post.img }}
-{% endfor %}
