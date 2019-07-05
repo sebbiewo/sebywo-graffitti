@@ -13,6 +13,7 @@ description: Graffiti art
 </div>
 <hr>
 {% for post in site.posts %}
+<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 {{ post.title }}
 {{ post.caption }}
 {{ post.img }}
