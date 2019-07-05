@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article id="main">
+
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.caption }}</p>
+  </header>
+
+  <section class="wrapper style5">
+    <div class="inner">
+      <div class="box alt">
+					<div class="row uniform 50%">
+						  <div class="12u"><span class="image fit"><img src="{{ page.img }}" alt="{{ page.caption }}" /></span></div>
+            </div>
+      {{ content }}
+    </div>
+  </section>
+
+</article>
