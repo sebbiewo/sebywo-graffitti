@@ -1,0 +1,8 @@
+<div class="">
+  {% if page.previous.url %} 
+      <a class="btn btn-primary" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; previous<span class="d-none d-md-inline"> {{ page.layout | lowercase }}</span></a>
+   {% endif %}
+   {% if page.next.url %}
+       <a class="btn btn-primary" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">next<span class="d-none d-md-inline"> {{ page.layout | lowercase }}</span> &rarr;</a>
+    {% endif %}
+</div>
