@@ -9,7 +9,7 @@ description: Graffiti art
 		{% for post in site.posts %}
 		{% if post.img %}
 			<div class="4u 12u(small) 12u(xsmall)">
-				<span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.img }}" alt="{{ post.caption }}" /></a></span>
+				<span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.img }}" alt="{{ post.caption }}" style="object-fit: cover;" /></a></span>
 				<h1><a href="{{ post.url | absolute_url  }}">{{ post.title }}</a></h1>
 				<!--<p>{{ post.caption }}</p>-->
 			</div>
