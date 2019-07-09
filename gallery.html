@@ -8,7 +8,7 @@ description: Graffiti art
 	<div class="row uniform"> <!-- formerly row uniform 50% -->
 		{% for post in site.posts %}
 		{% if post.img %}
-			<div class="4u 12u(small) 12u(xsmall)">
+			<div class="4u 12u(small) 12u(xsmall)" style="height: 280px;">
 				<span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.img }}" alt="{{ post.caption }}" style="object-fit: cover;" /></a></span>
 				<h1><a href="{{ post.url | absolute_url  }}">{{ post.title }}</a></h1>
 				<!--<p>{{ post.caption }}</p>-->
