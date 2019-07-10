@@ -9,8 +9,8 @@ description: Graffiti art
 		{% for post in site.posts %}
 		{% if post.img %}
 			<div class="4u 12u(small) 12u(xsmall)" style="height: 300px;">
-				<span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.img }}" alt="{{ post.caption }}" style="height: 280px; object-fit: scale-down;" /></a></span>
 				<p><a href="{{ post.url | absolute_url  }}">{{ post.title }}</a></p>
+				<span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.img }}" alt="{{ post.caption }}" style="height: 280px; object-fit: scale-down;" /></a></span>
 				<!--<p>{{ post.caption }}</p>-->
 			</div>
 		{% endif %}
